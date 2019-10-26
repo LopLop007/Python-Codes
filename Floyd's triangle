@@ -1,0 +1,11 @@
+n = 1
+summ = 1
+
+x = int(input("Put the size of triangle: "))
+
+for i in range(0,x):
+    for j in range(0,n):
+        print(summ,end = " ")
+        summ+=1      
+    print(" ")
+    n+=1
